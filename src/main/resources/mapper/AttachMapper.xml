@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhang.blog.dao.AttachMapper">
+  <resultMap id="BaseResultMap" type="com.zhang.blog.entity.Attach">
+    <id column="attach_id" jdbcType="INTEGER" property="attachId" />
+    <result column="fname" jdbcType="VARCHAR" property="fname" />
+    <result column="ftype" jdbcType="VARCHAR" property="ftype" />
+    <result column="fkey" jdbcType="VARCHAR" property="fkey" />
+    <result column="authorId" jdbcType="INTEGER" property="authorId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+  </resultMap>
+  <sql id="Base_Column_List">
+    attach_id, fname, ftype, fkey, authorId,create_time
+  </sql>
+
+  <insert id="insert" parameterType="com.zhang.blog.entity.Attach">
+    insert into tb_attach (attach_id, fname, ftype, fkey, authorId,create_time)
+    values (#{attachId,jdbcType=INTEGER}, #{fname,jdbcType=VARCHAR}, #{ftype,jdbcType=VARCHAR},
+      #{fkey,jdbcType=VARCHAR}, #{authorId,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+
+</mapper>

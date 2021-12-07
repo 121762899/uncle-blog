@@ -148,3 +148,13 @@ CREATE TABLE `tb_link` (
   PRIMARY KEY (`link_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE `tb_attach` (
+   `attach_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '附件id',
+   `fname` varchar(50) NOT NULL COMMENT '文件名',
+   `ftype` varchar(50) NOT NULL COMMENT '文件类型',
+   `fkey` varchar(200) NOT NULL COMMENT '文件链接',
+   `author_id` int(11) DEFAULT '0' COMMENT '上传人',
+   `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '添加时间',
+   PRIMARY KEY (`attach_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+

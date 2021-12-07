@@ -17,19 +17,19 @@ public class ConfigServiceImpl implements ConfigService {
     @Autowired
     private BlogConfigMapper configMapper;
 
-    public static final String websiteName = "personal blog";
+    public static final String websiteName = "uncle zhang";
     public static final String websiteDescription = "personal blog是SpringBoot2+Thymeleaf+Mybatis建造的个人博客网站.SpringBoot实战博客源码.个人博客搭建";
-    public static final String websiteLogo = "/admin/dist/img/logo2.png";
-    public static final String websiteIcon = "/admin/dist/img/favicon.png";
+    public static final String websiteLogo = "/admin/dist/img/logo.png";
+    public static final String websiteIcon = "/admin/dist/img/logo.png";
 
-    public static final String yourAvatar = "/admin/dist/img/13.png";
+    public static final String yourAvatar = "/admin/dist/img/uncle zhang.png";
     public static final String yourEmail = " 1217628900@qq.com";
     public static final String yourName = "uncle zhang";
 
-    public static final String footerAbout = "your personal blog. have fun.";
+    public static final String footerAbout = "uncle zhang. have fun.";
     public static final String footerICP = "浙ICP备 xxxxxx-x号";
     public static final String footerCopyRight = "@2021 uncle zhang";
-    public static final String footerPoweredBy = "personal blog";
+    public static final String footerPoweredBy = "uncle zhang";
     public static final String footerPoweredByURL = "##";
 
     @Override

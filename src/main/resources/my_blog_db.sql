@@ -43,7 +43,7 @@ CREATE TABLE `tb_blog` (
   PRIMARY KEY (`blog_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO `my_blog_db`.`tb_blog`(`blog_id`, `blog_title`, `blog_sub_url`, `blog_cover_image`, `blog_content`, `blog_category_id`, `blog_category_name`, `blog_tags`, `blog_status`, `blog_views`, `enable_comment`, `is_deleted`, `create_time`, `update_time`) VALUES (1, '我是uncle zhang', 'about', '/admin/dist/img/rand/33.jpg', '## About me\n\n我是uncle zhagn，一名Java开发者。\n\n相信浏览这段话的你也知道，学习是一件极其枯燥而无聊的过程，甚至有时候显得很无助，我也想告诉你，成长就是这样一件残酷的事情，任何成功都不是一蹴而就，需要坚持、需要付出、需要你的毅力，短期可能看不到收获，因为破茧成蝶所耗费的时间不是一天。\n\n## Contact\n\n- 我的邮箱：1217628900@qq.com\n- 我的网站：http://unclezhang.site\n', 1, 'About', '生活', 1, 0, 0, 0, '2021-12-12 00:00:15', '2021-12-12 00:00:15');
+INSERT INTO `my_blog_db`.`tb_blog`(`blog_id`, `blog_title`, `blog_sub_url`, `blog_cover_image`, `blog_content`, `blog_category_id`, `blog_category_name`, `blog_tags`, `blog_status`, `blog_views`, `enable_comment`, `is_deleted`, `create_time`, `update_time`) VALUES (1, '我是uncle zhang', 'about', '/admin/dist/img/rand/33.jpg', '## About me\n\n我是uncle zhang，一名Java开发者。\n\n相信浏览这段话的你也知道，学习是一件极其枯燥而无聊的过程，甚至有时候显得很无助，我也想告诉你，成长就是这样一件残酷的事情，任何成功都不是一蹴而就，需要坚持、需要付出、需要你的毅力，短期可能看不到收获，因为破茧成蝶所耗费的时间不是一天。\n\n## Contact\n\n- 我的邮箱：1217628900@qq.com\n- 我的网站：http://unclezhang.site\n', 1, 'About', '生活', 1, 0, 0, 0, '2021-12-12 00:00:15', '2021-12-12 00:00:15');
 
 /*Table structure for table `tb_blog_category` */
 
@@ -119,16 +119,16 @@ CREATE TABLE `tb_config` (
 
 /*Data for the table `tb_config` */
 
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerAbout','your personal blog. have fun.','2021-11-11 20:33:23','2021-11-12 11:58:06');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerAbout','uncle zhang. have fun.','2021-11-11 20:33:23','2021-11-12 11:58:06');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerCopyRight','2021 uncle zhang','2021-11-11 20:33:31','2021-11-12 11:58:06');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerICP','浙ICP备17008806号-3','2021-11-11 20:33:27','2021-11-12 11:58:06');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerPoweredBy','https://github.com/121762899','2021-11-11 20:33:36','2021-11-12 11:58:06');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerPoweredByURL','https://github.com/121762899','2021-11-11 20:33:39','2021-11-12 11:58:06');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteDescription','uncle zhang blog','2021-11-11 20:33:04','2021-11-11 22:05:14');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteIcon','/admin/dist/img/favicon.png','2021-11-11 20:33:11','2021-11-11 22:05:14');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteLogo','/admin/dist/img/logo2.png','2021-11-11 20:33:08','2021-11-11 22:05:14');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteName','personal blog','2021-11-11 20:33:01','2021-11-11 22:05:14');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourAvatar','/admin/dist/img/13.png','2021-11-11 20:33:14','2019-05-07 21:56:23');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteIcon','/admin/dist/img/logo.png','2021-11-11 20:33:11','2021-11-11 22:05:14');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteLogo','/admin/dist/img/logo.png','2021-11-11 20:33:08','2021-11-11 22:05:14');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteName','uncle zhang','2021-11-11 20:33:01','2021-11-11 22:05:14');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourAvatar','/admin/dist/img/uncle zhang.png','2021-11-11 20:33:14','2019-05-07 21:56:23');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourEmail',' 1217628900@qq.com','2021-11-11 20:33:17','2019-05-07 21:56:23');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourName','uncle zhang','2021-11-11 20:33:20','2019-05-07 21:56:23');
 

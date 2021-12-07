@@ -1,9 +1,8 @@
 package com.zhang.blog.controller.admin;
 
-import com.zhang.blog.Types;
+import com.zhang.blog.enums.Types;
 import com.zhang.blog.api.QiNiuCloudService;
 import com.zhang.blog.config.Constants;
-import com.zhang.blog.entity.AdminUser;
 import com.zhang.blog.entity.Attach;
 import com.zhang.blog.service.AttAchService;
 import com.zhang.blog.util.MyBlogUtils;
@@ -19,7 +18,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.zhang.blog;
+package com.zhang.blog.enums;
 
 public enum Types {
 

@@ -1,0 +1,10 @@
+2021-12-07 15:46:01.475 [main] INFO  com.zhang.blog.MyBlogApplicationTests - Starting MyBlogApplicationTests on zhangxuesongdeMacBook-Pro.local with PID 2405 (started by zhangxuesong in /Users/zhangxuesong/study/github/uncle-blog)
+2021-12-07 15:46:01.484 [main] INFO  com.zhang.blog.MyBlogApplicationTests - No active profile set, falling back to default profiles: default
+2021-12-07 15:46:05.384 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-07 15:46:06.533 [main] INFO  com.zhang.blog.MyBlogApplicationTests - Started MyBlogApplicationTests in 5.533 seconds (JVM running for 6.881)
+2021-12-07 15:46:06.811 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-07 16:04:35.381 [main] INFO  com.zhang.blog.MyBlogApplicationTests - Starting MyBlogApplicationTests on zhangxuesongdeMacBook-Pro.local with PID 2553 (started by zhangxuesong in /Users/zhangxuesong/study/github/uncle-blog)
+2021-12-07 16:04:35.389 [main] INFO  com.zhang.blog.MyBlogApplicationTests - No active profile set, falling back to default profiles: default
+2021-12-07 16:04:39.735 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-07 16:04:41.007 [main] INFO  com.zhang.blog.MyBlogApplicationTests - Started MyBlogApplicationTests in 6.178 seconds (JVM running for 7.595)
+2021-12-07 16:04:41.422 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

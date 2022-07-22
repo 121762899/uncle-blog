@@ -30,12 +30,12 @@ public class QiNiuCloudService {
     /**
      * 仓库
      */
-    private static final String BUCKET = "song6258";
+    private static final String BUCKET = "song628";
 
     /**
      * 七牛外网访问地址
      */
-    public static final String QINIU_UPLOAD_SITE = "http://r3n3z2051.hd-bkt.clouddn.com/";
+    public static final String QINIU_UPLOAD_SITE = "http://rff1tp8lb.hn-bkt.clouddn.com/";
 
     /**
      * 上传文件到七牛公共方法
@@ -50,7 +50,7 @@ public class QiNiuCloudService {
         // 华北 Zone.zone1()
         // 华南 Zone.zone2()
         // 北美 Zone.zoneNa0()
-        Configuration cfg = new Configuration(Zone.zone0());
+        Configuration cfg = new Configuration(Zone.zone2());
         // 其它参数参考类注释
         UploadManager uploadManager = new UploadManager(cfg);
 

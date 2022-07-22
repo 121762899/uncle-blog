@@ -8,3 +8,73 @@
 2021-12-07 16:04:39.735 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
 2021-12-07 16:04:41.007 [main] INFO  com.zhang.blog.MyBlogApplicationTests - Started MyBlogApplicationTests in 6.178 seconds (JVM running for 7.595)
 2021-12-07 16:04:41.422 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-22 16:10:24.236 [main] INFO  com.zhang.blog.MyBlogApplication - Starting MyBlogApplication on DESKTOP-N23MU0M with PID 11636 (D:\Projects\uncle-blog\target\classes started by zxs in D:\Projects\uncle-blog)
+2022-07-22 16:10:24.248 [main] INFO  com.zhang.blog.MyBlogApplication - No active profile set, falling back to default profiles: default
+2022-07-22 16:10:26.326 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-07-22 16:10:26.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-07-22 16:10:26.443 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-22 16:10:26.443 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-22 16:10:26.545 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-22 16:10:26.545 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2218 ms
+2022-07-22 16:10:27.722 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 16:10:28.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-07-22 16:10:28.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-07-22 16:10:28.227 [main] INFO  com.zhang.blog.MyBlogApplication - Started MyBlogApplication in 4.874 seconds (JVM running for 6.935)
+2022-07-22 17:38:10.499 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:38:40.801 [main] INFO  com.zhang.blog.MyBlogApplication - Starting MyBlogApplication on DESKTOP-N23MU0M with PID 11844 (D:\Projects\uncle-blog\target\classes started by zxs in D:\Projects\uncle-blog)
+2022-07-22 17:38:40.823 [main] INFO  com.zhang.blog.MyBlogApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:38:43.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-22 17:38:44.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-22 17:38:44.024 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-22 17:38:44.025 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-22 17:38:44.298 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:38:44.299 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3401 ms
+2022-07-22 17:38:45.511 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:38:45.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-07-22 17:38:45.927 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-22 17:38:45.976 [main] INFO  com.zhang.blog.MyBlogApplication - Started MyBlogApplication in 6.169 seconds (JVM running for 9.143)
+2022-07-22 17:39:00.089 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:39:06.596 [main] INFO  com.zhang.blog.MyBlogApplication - Starting MyBlogApplication on DESKTOP-N23MU0M with PID 16920 (D:\Projects\uncle-blog\target\classes started by zxs in D:\Projects\uncle-blog)
+2022-07-22 17:39:06.602 [main] INFO  com.zhang.blog.MyBlogApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:39:08.568 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-22 17:39:08.581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-22 17:39:08.582 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-22 17:39:08.582 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-22 17:39:08.685 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:39:08.685 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2026 ms
+2022-07-22 17:39:09.388 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:39:09.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-07-22 17:39:09.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-22 17:39:09.795 [main] INFO  com.zhang.blog.MyBlogApplication - Started MyBlogApplication in 3.849 seconds (JVM running for 5.5)
+2022-07-22 17:39:30.875 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 17:39:30.876 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-22 17:39:30.887 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2022-07-22 17:39:31.573 [http-nio-8080-exec-3] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [558] milliseconds.
+2022-07-22 17:39:42.560 [http-nio-8080-exec-3] WARN  com.zaxxer.hikari.HikariConfig - hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-07-22 17:39:42.562 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Starting...
+2022-07-22 17:39:43.390 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Start completed.
+2022-07-22 17:50:25.419 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:50:25.464 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Shutdown initiated...
+2022-07-22 17:50:25.505 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Shutdown completed.
+2022-07-22 17:50:45.697 [main] INFO  com.zhang.blog.MyBlogApplication - Starting MyBlogApplication on DESKTOP-N23MU0M with PID 7444 (D:\Projects\uncle-blog\target\classes started by zxs in D:\Projects\uncle-blog)
+2022-07-22 17:50:45.711 [main] INFO  com.zhang.blog.MyBlogApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:50:47.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-22 17:50:47.490 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-22 17:50:47.493 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-22 17:50:47.493 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-22 17:50:47.626 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:50:47.627 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1847 ms
+2022-07-22 17:50:48.687 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:50:49.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-07-22 17:50:49.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-22 17:50:49.146 [main] INFO  com.zhang.blog.MyBlogApplication - Started MyBlogApplication in 4.771 seconds (JVM running for 7.274)
+2022-07-22 17:51:06.388 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 17:51:06.390 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-22 17:51:06.401 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-07-22 17:51:07.135 [http-nio-8080-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [607] milliseconds.
+2022-07-22 17:51:16.109 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.HikariConfig - hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-07-22 17:51:16.111 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Starting...
+2022-07-22 17:51:16.888 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Start completed.
+2022-07-22 17:52:20.295 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:52:20.296 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Shutdown initiated...
+2022-07-22 17:52:20.301 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hikariCP - Shutdown completed.
